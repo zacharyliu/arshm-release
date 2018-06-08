@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/MapboxAR/Examples/Scenes/WorldScaleAR.unity
+    guid: c60dfd6bb74264e44b3dbf93e9d129c4
+  - enabled: 0
+    path: Assets/DataCapture.unity
+    guid: f0f5778caa2c149178cdefff3b557b1b
+  - enabled: 0
+    path: Assets/MeshCreator.unity
+    guid: ea074d1781be242c7bd0af58503d00ee
+  - enabled: 0
+    path: Assets/UnityARInterface/ARRemote/RemoteDevice.unity
+    guid: 20b446302c6bc5a4db8e59fc358aba13
+  - enabled: 0
+    path: Assets/Capture.unity
+    guid: 83cbe1699abaa429dbe43ba4df0aeb72
+  - enabled: 0
+    path: Assets/DataCaptureStream.unity
+    guid: d093be917b1e04440ab2f484a1ab4e93
+  - enabled: 1
+    path: Assets/ARSHM.unity
+    guid: a5cf62d70580841aca23d1e2fe6a35eb
+  - enabled: 0
+    path: Assets/DataCaptureFile.unity
+    guid: d1c6776b1d04e49b6980393f6bb9201d

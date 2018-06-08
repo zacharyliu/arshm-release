@@ -1,0 +1,43 @@
+Modern UI Pack - v1.2
+
+Do you have any questions or requests?
+Contact me via e-mail: isa.steam@outlook.com
+
+YouTube channel (tutorials, changes, etc.):
+https://www.youtube.com/c/Michsky
+
+Want to support?
+https://www.patreon.com/michsky
+
+Change Log v1.3
+----------------------------------------
+• New demo scene
+• Panels added
+• Shapes added
+• More borders added
+• Improved dropdown
+----------------------------------------
+
+Change Log v1.2
+----------------------------------------
+• Tool tips added
+• Input field added (WIP)
+• Dropdowns added (WIP)
+• New icons added
+• Icons are categorized
+• Added notification example scene
+• Fixed notification prefab animator
+----------------------------------------
+
+Change Log v1.1
+----------------------------------------
+• Toggles added
+• Switches added
+• Rating system added (WIP)
+• New progress bars added
+• Re-work on progress bars
+• Re-work on sliders
+• Some icons added
+• Editor shortcuts added
+• Some animation bugs fixed
+----------------------------------------

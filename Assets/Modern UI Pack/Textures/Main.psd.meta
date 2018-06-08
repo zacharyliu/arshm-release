@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: b295b6401049aca4faf1374aad10abde
+timeCreated: 1523736783
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Button Basic
+    21300002: Button Basic Outline
+    21300004: Button Rounded
+    21300006: Button Rounded Outline
+    21300008: Circle Outline (x8)
+    21300010: Red & Blue Gradient
+    21300012: Circle
+    21300014: Rounded Switch
+    21300016: Circle Outline (x1)
+    21300018: Circle Outline Big
+    21300020: Circle Big
+    21300022: Circle Outline Cut Big
+    21300024: Save
+    21300026: Fix
+    21300028: Warning
+    21300030: Info
+    21300032: Yes with Circle
+    21300034: No with Circle
+    21300036: Checkmark Thin
+    21300038: No
+    21300040: Button Basic Outline (x1)
+    21300042: Button Basic Outline (x2)
+    21300044: Button Basic Outline (x3)
+    21300046: Button Rounded Outline (x2)
+    21300048: Button Rounded Outline (x3)
+    21300050: Button Basic Outline (x6)
+    21300052: Button Rounded Outline (x1)
+    21300054: Circle Outline Big Thin
+    21300056: Circle Outline (x2)
+    21300058: Circle Outline (x3)
+    21300060: Circle Outline (x4)
+    21300062: Circle Outline (x5)
+    21300064: Chat
+    21300066: Refresh
+    21300068: User
+    21300070: Lock
+    21300072: Phone
+    21300074: Video
+    21300076: Cup
+    21300078: Heart
+    21300080: Pin
+    21300082: Checkmark Light
+    21300084: Checkmark Regular
+    21300086: Checkmark Bold
+    21300088: Circle Outline Big Light
+    21300090: Circle Outline Big Regular
+    21300092: Circle Outline Big Bold
+    21300094: Star
+    21300096: Star Filled
+    21300098: Settings
+    21300100: Lamp
+    21300102: Shield
+    21300104: Global
+    21300106: Button Basic Outline (x4)
+    21300108: Button Basic Outline (x5)
+    21300110: Button Rounded Outline (x4)
+    21300112: Button Rounded Outline (x5)
+    21300114: Button Rounded Outline (x6)
+    21300116: Button Basic Outline (x7)
+    21300118: Button Basic Outline (x8)
+    21300120: Button Basic Outline (x9)
+    21300122: Button Rounded Outline (x7)
+    21300124: Button Rounded Outline (x8)
+    21300126: Button Rounded Outline (x9)
+    21300128: Button Rounded Outline (x10)
+    21300130: Button Basic Outline (x10)
+    21300132: Label 1
+    21300134: Label 1 Outline (x1)
+    21300136: Label 1 R
+    21300138: Label 1 Outline R (x1)
+    21300140: Label 1 Cutted
+    21300142: Label 1 Cutted Outline (1x)
+    21300144: Red & Orange Gradient
+    21300146: Blue Gradient
+    21300148: Pink & Purple Gradient
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button Basic
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4046
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3994
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3942
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3890
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x8)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 4046
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Red & Blue Gradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3838
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3994
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rounded Switch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3811
+        width: 151
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x1)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3942
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline Big Thin
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3942
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Big
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3942
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline Cut Big
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3942
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Save
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 4032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Fix
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 4032
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Checkmark Thin
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 3999
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x2)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3759
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x3)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3707
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x2)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3655
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x3)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3603
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x2)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3890
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x3)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3838
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x4)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3786
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline (x5)
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3734
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Checkmark Light
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 3998
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Checkmark Regular
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 3998
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Checkmark Bold
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 3998
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline Big Light
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3784
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline Big Regular
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3626
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Circle Outline Big Bold
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3468
+        width: 154
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Star
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 4034
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Star Filled
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 4034
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x4)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3551
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x5)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3499
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x6)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3447
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x4)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3395
+        width: 150
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x5)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3343
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x6)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3291
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x7)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3239
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 8, z: 8, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x8)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3187
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 9, z: 9, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x9)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3135
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x7)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3083
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x8)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3031
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x9)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2979
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Rounded Outline (x10)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2927
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Button Basic Outline (x10)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2873
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 11, z: 11, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2823
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1 Outline (x1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2771
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1 R
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2719
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 25, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1 Outline R (x1)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2667
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 25, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1 Cutted
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2615
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 1, z: 25, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Label 1 Cutted Outline (1x)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2563
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 1, z: 25, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Red & Orange Gradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2511
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blue Gradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2459
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pink & Purple Gradient
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2407
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
