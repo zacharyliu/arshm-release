@@ -20,3 +20,17 @@ To build and run this on a device:
 6. The app will be installed and launched on the device automatically.
 
 Once the correct scene and platform are selected, you can re-build the app without going through the whole process above by pressing Cmd+B or by clicking File->Build. You only need to perform the full procedure again when you want to switch scenes in the build.
+
+## Server
+
+A simple server implementation written in Python is contained in the `arshm-server` directory. This is a Socket.IO-based realtime server which allows clients to broadcast new annotations to other devices and to request image data. It also stores annotations in memory and broadcasts them to a new device when it connects.
+
+Pipenv is used for dependency management. After [installing Pipenv](https://docs.pipenv.org/install/), run `pipenv install` in the server directory to install its Python dependencies. Then run the server with:
+
+```
+pipenv run python server.py
+```
+
+The server will print out the port it is listening on.
+
+Next, configure the Unity app to connect to this server. Locate the instance of the `SocketService` class in the Unity scene, and in the inspector on the right of the editor, replace the default URL with the correct IP/hostname and port. (If your phone and computer are on the same network, you can find your computer's local IP address on a Mac from the Network panel in System Preferences.)
