@@ -31,6 +31,6 @@ Pipenv is used for dependency management. After [installing Pipenv](https://docs
 pipenv run python server.py
 ```
 
-The server will print out the port it is listening on.
+By default, the server will listen on port 5000.
 
-Next, configure the Unity app to connect to this server. Locate the instance of the `SocketService` class in the Unity scene, and in the inspector on the right of the editor, replace the default URL with the correct IP/hostname and port. (If your phone and computer are on the same network, you can find your computer's local IP address on a Mac from the Network panel in System Preferences.)
+Next, configure the Unity app to connect to this server. Locate the instance of the `SocketService` class in the Unity scene, and in the inspector on the right of the editor, replace the default URL with the correct IP/hostname. (If your phone and computer are on the same network, you can find your computer's local IP address on a Mac from the Network panel in System Preferences.)

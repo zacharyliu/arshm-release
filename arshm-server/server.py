@@ -31,3 +31,6 @@ def on_fetch(item_id):
         emit('model', db[item_id])
     else:
         send(None)
+
+if __name__ == '__main__':
+    socketio.run(app, host='0.0.0.0', port=5000)
