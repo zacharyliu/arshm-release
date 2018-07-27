@@ -7,10 +7,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+// namespace tells Unity what directory of folders the script is located in.
 namespace App.Controllers
 {
     public class MainController : MonoBehaviour
     {
+        // enumeration to see what state the app is in (whether it's using the Camera, viewing the Map, or viewing the Preview.
+        // Currently, there does not appear to be a Preview GameObject. Unclear whether Zach intentionally did not have one,
+        // or if the connection to the MainController has not saved over.
         private enum State
         {
             Camera,
@@ -71,6 +75,7 @@ namespace App.Controllers
             AnnotateButton.gameObject.SetActive(true);
         }
 
+        // This method accounts for when the user Backclicks from the map or preview state. It sets the canvases appropriately.
         private void BackClick()
         {
             if (_state == State.Map)
@@ -95,6 +100,7 @@ namespace App.Controllers
             }
         }
 
+        // This method gets called when the user clicks on the map. 
         private void MapClickHandler(PointerEventData obj)
         {
             if (_state == State.Camera)
@@ -112,6 +118,7 @@ namespace App.Controllers
             }
         }
 
+        // This method is called when the user clicks on the preview
         private void PreviewClickHandler(PointerEventData obj)
         {
             if (_state == State.Camera)
@@ -126,6 +133,7 @@ namespace App.Controllers
             }
         }
 
+        // This method is called when the user clicks the annotate button.
         private void AnnotateButtonClick()
         {
             // TODO: check if tracking
@@ -152,6 +160,7 @@ namespace App.Controllers
             AddAnnotation(annotationModel);
         }
 
+        // Adds an annotation to the Map Canvas. Passed into a script attached to Map Canvas.
         private void AddAnnotation(AnnotationModel annotationModel)
         {
             var annotationController = Instantiate(AnnotationPrefab);
@@ -162,11 +171,13 @@ namespace App.Controllers
             MapCanvasController.AddAnnotation(annotationController);
         }
 
+        // I believe the next four methods set the current annotation and remove annotations. Unclear how it works.
         private void OnAnnotationControllerSelect(object sender, EventArgs eventArgs)
         {
             SetCurrentAnnotation((AnnotationController) sender);
         }
 
+        
         private void OnAnnotationControllerDeselect(object sender, EventArgs eventArgs)
         {
             ClearCurrentAnnotation();
@@ -194,8 +205,10 @@ namespace App.Controllers
         // Update is called once per frame
         void Update()
         {
+            // Checks if the input was a left mouse click.
             if (Input.GetMouseButton(0))
             {
+                // Unclear what this code does.
                 var previewRect = LargePreviewImage.GetComponent<RectTransform>();
                 var mapRect = MapFull.GetComponent<RectTransform>();
 
@@ -217,6 +230,7 @@ namespace App.Controllers
             }
         }
 
+        // Get the Rectangle Position of a Rect Transform
         private static Vector2 GetRectPosition(RectTransform rectTransform)
         {
             Vector2 localPoint;

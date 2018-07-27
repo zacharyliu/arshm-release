@@ -12,7 +12,7 @@ public class SocketConnection : MonoBehaviour
 {
     public static SocketConnection Instance;
     
-    public string Url = "http://zach.princeton.edu:5000";
+    public string Url = "http://0.0.0.0:5000/";
     private Socket _socket;
 
     private void Awake()

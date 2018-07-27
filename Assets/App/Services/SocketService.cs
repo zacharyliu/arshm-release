@@ -8,23 +8,29 @@ using Quobject.EngineIoClientDotNet.ComponentEmitter;
 using Quobject.SocketIoClientDotNet.Client;
 using UnityEngine;
 
+// namespace tells Unity what directory of folders the script is located in.
 namespace App.Services
 {
     public class SocketService : MonoBehaviour
     {
-        public string Url = "http://zach.princeton.edu:5000";
+        // Url is the server address. It is unclear whether you need to change this in code, or just in the Unity editor.
+        // Either way, you need to change this based on what address the server is listening on.
+        // How to set up a Python server is on Zach's GitHub readme.
+        public string Url = "http://0.0.0.0:5000/";
         private Socket _socket;
 
         // TODO: refactor this to use delegates so there can be multiple listeners
         public Dictionary<Guid, Action<JObject>> OnUpdate = new Dictionary<Guid, Action<JObject>>();
         public Dictionary<string, Action<JObject>> OnCreate = new Dictionary<string, Action<JObject>>();
 
+        // An instance of the SocketService.
         private static SocketService _instance;
         public static SocketService GetInstance()
         {
             return _instance;
         }
 
+        // Set the instance to itself immediately when the app starts.
         private void Awake()
         {
             _instance = this;

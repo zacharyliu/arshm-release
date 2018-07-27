@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 
+// namespace tells Unity what directory of folders the script is located in.
 namespace App.Components
 {
+    // Requires the GameObject to have a Camera component.
 	[RequireComponent(typeof(Camera))]
 	public class CameraMovementComponent : MonoBehaviour
 	{
 		public float ScrollZoomSpeed = 0.05f;
 		public float CameraMaxY = 200;
 		public float CameraMinY = 10;
+        // MapView is the RectTransform the map is displayed onto. It contains a render texture that accomplishes this.
 		public RectTransform MapView;
 
 		private bool _isEnabled;
@@ -29,18 +32,22 @@ namespace App.Components
 		private bool _isDragging;
 		private Vector3 _originMousePosition;
 
+        // Initialize the Camera with the Camera component, and set the simulation of mouse clicks with touches to true.
 		private void Start()
 		{
 			_mapCamera = GetComponent<Camera>();
 			Input.simulateMouseWithTouches = true;
 		}
 
+        // Called once per frame.
 		private void Update()
 		{
+            // Set the aspect ratio of the Camera to fit the dimensions of the MapView.
 			_mapCamera.aspect = MapView.rect.width / MapView.rect.height;
 
 			if (!_isEnabled) return;
 
+            // Check whether the input was a mouse click or a finger touch.
 			if (Input.touchSupported && Input.touchCount > 0)
 			{
 				HandleTouch();
@@ -51,6 +58,7 @@ namespace App.Components
 			}
 		}
 
+        // Zoom and pan according to mouse controls.
 		void HandleMouse()
 		{
 			// zoom
@@ -61,6 +69,7 @@ namespace App.Components
 			PanMap();
 		}
 
+        // Zoom and pan according to finger input touches.  
 		void HandleTouch()
 		{
 			//pinch to zoom.
@@ -94,6 +103,7 @@ namespace App.Components
 			}
 		}
 
+        // Change the zoom of the map by zoomFactor
 		void ZoomMap(float zoomFactor)
 		{
 			var newPosition = _mapCamera.transform.position;
@@ -101,7 +111,7 @@ namespace App.Components
 			_mapCamera.transform.position = newPosition;
 		}
 
-
+        // Allows you to pan the map around
 		void PanMap()
 		{
 			if (!Input.GetMouseButton(0))
